@@ -11,7 +11,7 @@ jobs:
       - image: circleci/node:13.8.0
     steps:
       - run: echo hello
-      - run: echo my_name_var
+      - run: echo $my_name_var
   print_world:
     docker:
       - image: Circleci/node:13.8.0
